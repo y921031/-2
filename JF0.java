@@ -1,3 +1,4 @@
+
 /*本學期的作業應繳交java檔及執行畫面的截圖
 G02_1. 
 
@@ -21,12 +22,12 @@ G02_4.
    寫出另外幾個視窗程式, 測試各種改變.*/
 import javax.swing.JFrame;
 
-public class JFß0 {
-    public static void main(String[] dummy) {
-        JFrame jF0 = new JFrame("JF0");
-        jF0.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        jF0.setBounds(400,0,330,200);
-        jF0.setVisible(true);
-    }
-    
+public class JF0 {
+  public static void main(String[] dummy) {
+    JFrame jF0 = new JFrame("JF0");
+    jF0.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    jF0.setBounds(400, 0, 330, 200);
+    jF0.setVisible(true);
+  }
+
 }
