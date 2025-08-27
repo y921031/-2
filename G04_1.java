@@ -12,7 +12,7 @@ public class G04_1 extends JFrame {
 
     public void paint(Graphics g) {
         super.paint(g);
-        int r = 80; // 半徑
+        int r = 80;
         int x1 = 100, y = 150;
         int x2 = x1 + r, y2 = y;
 

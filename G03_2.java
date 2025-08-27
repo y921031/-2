@@ -16,7 +16,7 @@ public class G03_2 {
                                 JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.INFORMATION_MESSAGE);
 
                 // Message + 自訂 Icon
-                ImageIcon icon = new ImageIcon("phi.jpg"); // 確保檔案存在
+                ImageIcon icon = new ImageIcon("yee.png");
                 JOptionPane.showMessageDialog(null, "Custom Icon Example", "My Icon",
                                 JOptionPane.PLAIN_MESSAGE, icon);
         }

@@ -15,9 +15,9 @@ public class G04_2 extends JFrame {
         Color[] colors = {
                 Color.RED, Color.GREEN, Color.BLUE, Color.CYAN, Color.MAGENTA, Color.YELLOW,
                 Color.ORANGE, Color.PINK, Color.GRAY, Color.BLACK,
-                new Color(128, 0, 128), // 紫色 (自訂)
-                new Color(0, 128, 128), // 青藍 (自訂)
-                new Color(128, 64, 0) // 咖啡色 (自訂)
+                new Color(128, 0, 128), // 紫色
+                new Color(0, 128, 128), // 青藍
+                new Color(128, 64, 0) // 咖啡色
         };
 
         int x = 50, y = 100, r = 60;
@@ -25,7 +25,7 @@ public class G04_2 extends JFrame {
             g.setColor(colors[i]);
             g.fillOval(x, y, r, r);
             x += r + 10;
-            if (x > 400) { // 換行
+            if (x > 400) {
                 x = 50;
                 y += r + 10;
             }
